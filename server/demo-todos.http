@@ -1,6 +1,6 @@
 
 # @baseUrl = http://localhost:5000
-@baseUrl = http://localhost
+@baseUrl = http://localhost/api
 
 ###
 # @name register
@@ -19,7 +19,7 @@ POST {{baseUrl}}/login HTTP/1.1
 content-type: application/json
 
 {
-    "email": "james80@gmail.com",
+    "email": "james10@gmail.com",
     "password": "12345678"
 }
 
